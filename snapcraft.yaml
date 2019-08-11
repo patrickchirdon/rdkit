@@ -1,0 +1,37 @@
+name: rdkit
+
+version: "2.10"
+
+summary: GNU Hello, the "hello world" snap
+
+description: GNU Hello prints a friendly greeting.
+
+grade: stable
+
+confinement: strict
+
+plugin: conda
+
+conda-packages:
+
+  - conda-build
+
+  - numpy
+
+  - matplotlib
+
+  - cmake
+
+  - cairo
+
+  - pillow
+
+  - eigen
+
+  - pkg-config
+
+  - boost-cpp
+
+  - boost
+
+  - pyboost
